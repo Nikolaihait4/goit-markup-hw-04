@@ -448,8 +448,7 @@ body {
 
 .socialmedia-icon {
   fill: var(--light-color);
-  width: 24px;
-  height: 24px;
+  
 }
 
 .socialmedia-list {
@@ -466,7 +465,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--primary-brand-color)
 }
 
 .socialmedia-link:hover,
