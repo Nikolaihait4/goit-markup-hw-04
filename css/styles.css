@@ -390,8 +390,8 @@ body {
 
   border: 1px solid var(--subtle-text-color);
   border-radius: 4px;
-  /* color: var(--subtle-text-color); */
-  color: var(--company-color);
+  color: var(--subtle-text-color);
+  /* color: var(--company-color); */
 }
 
 .company-list-link:hover,
