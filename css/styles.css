@@ -374,6 +374,8 @@ body {
 
 .company-list-item {
   display: flex;
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 .company-list-icon {
@@ -390,14 +392,10 @@ body {
   color: var(--company-color);
 }
 
-.company-list-icon:hover,
-.company-list-icon:focus {
-  fill: var(--pressed-state-color);
-}
-
 .company-list-link:hover,
 .company-list-link:focus {
   border: 1px solid var(--pressed-state-color);
+  color: var(--pressed-state-color);
 }
 
 /* Footer */
@@ -503,6 +501,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-portfolio:hover,
@@ -511,6 +511,8 @@ body {
   background-color: var(--pressed-state-color);
   cursor: pointer;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-title {
@@ -539,6 +541,16 @@ body {
 
 .filters-element:hover,
 .filters-element:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.filters-element-link {
+  display: block;
+}
+
+.filters-element-link:hover,
+.filters-element-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
