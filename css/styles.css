@@ -386,7 +386,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%; 
+  width: 100%;
 
   border: 1px solid var(--subtle-text-color);
   border-radius: 4px;
@@ -438,7 +438,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-background-color);
-
 }
 
 .container.footer-zwaipart {
@@ -446,8 +445,6 @@ body {
   align-items: baseline;
   gap: 120px;
 }
-
-
 
 .socialmedia-icon {
   fill: var(--light-color);
